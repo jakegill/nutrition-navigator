@@ -1,0 +1,32 @@
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr minmax(auto, 5vh) 1fr;
+  width: 15vw;
+  border: 2px solid var(--primary);
+  font-family: "Roboto";
+  border-radius: 10px;
+}
+
+.card-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 12vh;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-recipe-title {
+  font-size: 0.9rem;
+  margin: 0;
+  padding-inline: 0.5vw;
+  color: var(--darkest);
+  
+}
+
+.card-recipe-stats {
+  padding: 0;
+  list-style: none;
+  color: var(--dark);
+}

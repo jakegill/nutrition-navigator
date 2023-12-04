@@ -1,0 +1,24 @@
+:root {
+  --primary: hsl(219, 100%, 26%);
+  --orange: #FA4616;
+  --darkest: hsl(219, 42.86%, 14%); /*Heading*/
+  --dark: hsl(219, 17.65%, 38.25%); /*Secondary text*/
+  --medium: hsl(219, 16.26%, 59.4%); /*Non-decorative borders*/
+  --light: hsl(219, 48.72%, 90.25%); /*Decorative borders*/
+  --lightest: hsl(219, 32.89%, 97.02%); /*Alternate backgrounds*/
+  --white: hsl(219, 100%, 100%);
+}
+
+body {
+  margin: 0;
+}
+
+.main-container {
+  height: 74vh;
+  width: minmax(100vw, 100%);
+  background-color: var(--white);
+  padding: 5vh 4vw 5vh 4vw;
+  display: grid;
+  grid-template-columns: minmax(300px, auto) 1fr;
+  gap: 2vw;
+}

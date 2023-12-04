@@ -1,0 +1,122 @@
+.input {
+  background-color: var(--lightest);
+  padding: 2vw;
+  border: 1px solid var(--light);
+}
+
+.input-title {
+  margin: 0;
+  padding-bottom: 2vh;
+  font-size: 2rem;
+  font-family: "Roboto";
+  color: var(--darkest);
+  border-bottom: 2px solid var(--light);
+}
+
+.input-form {
+  display: flex;
+  padding: 2vh 0vw 2vh 0vw;
+}
+
+.input-algo {
+  display: flex;
+  padding: 2vh 0vw 2vh 0vw;
+  font-family: "Roboto";
+  justify-content: left;
+  align-items: center;
+  gap: 4vw;
+  color: var(--primary);
+  font-size: 1.2rem;
+  border-bottom: 2px solid var(--light);
+}
+
+.input-dfs {
+  color: var(--primary);
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  justify-content: left;
+  align-items: center;
+  padding: 2vh 0vw 2vh 0vw;
+  font-size: 1.2rem;
+  border-bottom: 2px solid var(--light);
+}
+
+.input-button {
+  background-color: var(--primary);
+  font-family: "Roboto";
+  padding: 1vh;
+}
+
+.input-select {
+  font-family: "Roboto";
+  font-size: 1rem;
+  padding: 0.2vw;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.input-label-search {
+  display: inline-flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-family: "Roboto";
+  color: var(--primary);
+}
+
+.input-textbox {
+  border: 3px solid var(--primary);
+}
+
+.input-textbox:focus {
+  outline: none;
+  background-color: var(--light);
+  border: 3px solid var(--orange);
+}
+
+.input-button {
+  background-color: var(--primary);
+  font-size: 1.2rem;
+  color: var(--white);
+  border: none;
+}
+
+.input-button:hover {
+  background-color: var(--orange);
+}
+
+.input-ingredient-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vh;
+  border-bottom: 1px solid var(--light);
+}
+
+.input-ingredient {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: "Roboto";
+  color: var(--darkest);
+}
+
+.list-remove {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.8rem;
+  fill: var(--orange);
+  color: var(--orange);
+  border: none;
+  background-color: var(--lightest);
+}
+
+.list-remove:hover {
+  text-decoration: underline;
+}

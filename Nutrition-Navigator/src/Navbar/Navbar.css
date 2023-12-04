@@ -1,0 +1,27 @@
+.nav-container {
+  background-color: var(--lightest);
+  border-bottom: 2px solid var(--light);
+  height: 15vh;
+  width: minmax(100vw, 100%);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5vw;
+  align-items: center;
+}
+
+.nav-title {
+  font-family: "Roboto Slab";
+  font-size: 3rem;
+  color: var(--primary);
+}
+
+.nav-gator {
+  border-bottom: 0.3rem solid var(--orange);
+}
+
+.nav-content {
+  font-size: 1.2rem;
+  font-family: "Roboto";
+  color: var(--primary);
+  padding-right: 5vw;
+}
